@@ -1,0 +1,25 @@
+{
+  "name": "flatdango",
+  "version": "1.0.0",
+  "description": "Movie ticket purchase app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinkkimutai/Flatdango.git"
+  },
+  "keywords": [
+    "EventListener",
+    "boostrap",
+    "fetch()",
+    "javascript"
+  ],
+  "author": "Kelvin Kimutai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinkkimutai/Flatdango/issues"
+  },
+  "homepage": "https://github.com/kevinkkimutai/Flatdango#readme"
+}

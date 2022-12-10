@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background-image: url(../rick.jpg);
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 16%;
+    background-color: #42ffc6;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-weight: bold;
+    font-style: italic;
+  }
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  .mainCont {
+    margin-left:15%;
+    padding:1px 16px;
+    height:80%;
+    justify-content: center;
+    padding-left: 30px;
+    
+  }
+  .list {
+    background-color: #6020f5;
+    height: auto;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    padding: 10PX;
+    text-align: center;
+  }
+ header {
+    color: azure;
+    height: auto;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    text-decoration: underline;
+    font-style: italic
+  }
+  .container {
+    background-color: rgb(236, 91, 236);
+  }
+  .lists {
+    padding: 0px;
+    border-color: azure;
+  }
+  li {
+    display: block;
+   border-style: groove;
+    color: #000;
+  }
+  .col-5 {
+    background-color: rgb(196, 158, 158);
+    border: 2px solid white;
+   
+  } .col-7 {
+    background-color: rgb(196, 158, 158);
+    height: 300px;
+    padding: 0px;
+    border: 2px solid white;
+  }
+  .row {
+    padding-left: 100px;
+    padding-top: 20px;
+  }
+  .ticket {
+    padding-left: 24.7%;
+  }
+  h2 {
+    text-decoration: underline;
+    font-style: italic
+  }
+  h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .card {
+    float: left;
+    text-align: center;
+    display: flex;
+  }
+  img {
+    height: 500px;
+  }
+  .col-12 li {
+    border-style: none;
+    
+  }
+  .col-12 {
+    height: 300px;
+  }
+  span{
+    font-weight: bolder;
+  }
+  .btn {
+    font-weight: bolder;
+    width: auto;
+  }
+  .divbtn {
+    padding-top: 20px;
+  }
