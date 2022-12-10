@@ -1,5 +1,5 @@
 //url
-const API = "http://localhost:3000/films"
+const API = "https://kevinkkimutai.github.io/flatdango2/db.json"
 document.addEventListener('DOMContentLoaded', () => {
     //sidebar data
 
