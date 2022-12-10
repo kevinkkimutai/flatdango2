@@ -1,5 +1,5 @@
 //url
-const API = "https://kevinkkimutai.github.io/flatdango2/db.json"
+const API = "https://kevinkkimutai.github.io/flatdango2/index.json"
 document.addEventListener('DOMContentLoaded', () => {
     //sidebar data
 
@@ -111,7 +111,7 @@ alert('Click OK to proceed with purchase')
     }
     //buyTicket
     const buyTicket = (films) => {
-        fetch(`https://kevinkkimutai.github.io/flatdango2/db.json/${films.id}`, {
+        fetch(`https://kevinkkimutai.github.io/flatdango2/index.json/${films.id}`, {
             method: 'PATCH',
             headers: {
                 "content-Type": "application/json"
@@ -130,7 +130,7 @@ alert('Click OK to proceed with purchase')
     }
     //load movie list
     const loadMovieList = () => {
-        fetch('https://kevinkkimutai.github.io/flatdango2/db.json')
+        fetch('https://kevinkkimutai.github.io/flatdango2/index.json')
             .then((res) => res.json())
             .then(data => {
                 data.forEach(films => {
